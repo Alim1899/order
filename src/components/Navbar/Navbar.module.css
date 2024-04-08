@@ -1,6 +1,6 @@
 .main {
   height: 50px;
-  width: 100vw;
+  width: 100%;
   max-width: var(--width);
   z-index: 999999;
   margin: auto;
