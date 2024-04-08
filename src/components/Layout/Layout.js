@@ -4,12 +4,16 @@ import { Fragment } from "react";
 import Footer from "../Footer/Footer";
 import classes from './Layout.module.css'
 import logo from '../../assets/logo.png'
+import About from "../Pages/About/About";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
   },
+ { path: "/about",
+  element: <About />,
+},
 ]);
 const Layout = () => {
   return (
