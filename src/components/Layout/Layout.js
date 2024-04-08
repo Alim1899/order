@@ -1,5 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import Home from "../Pages/Home/Home";
+import Services from "../Pages/About/Services/Services";
 import { Fragment } from "react";
 import Footer from "../Footer/Footer";
 import classes from './Layout.module.css'
@@ -13,6 +14,9 @@ const router = createBrowserRouter([
   },
  { path: "/about",
   element: <About />,
+},
+{ path: "/services",
+element: <Services />,
 },
 ]);
 const Layout = () => {

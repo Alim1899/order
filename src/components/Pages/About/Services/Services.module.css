@@ -1,0 +1,28 @@
+.main{
+    width: 95%;
+    max-width: calc(var(--width) - 2.5%);
+    margin: auto;
+
+}
+.gradient{
+    width: 95%;
+    margin: auto;
+    height: 2px; /* Adjust as needed */
+    background: linear-gradient(to right, #f0f0f0, #354048, #f0f0f0);
+}
+.header{
+    margin-top: 20px;
+    text-align: center;
+}
+.headerText{
+    margin: 40px;
+}
+.paragraph{
+    font-weight: 100;
+    margin-top: 40px;
+}
+@media  screen and (max-width:1280px) {
+    .main{
+     width: 90%;
+    }
+ }
