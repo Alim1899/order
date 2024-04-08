@@ -1,0 +1,73 @@
+.main{
+    width: 100%;
+    max-width: var(--width);
+    margin: auto;
+    margin-top: 2vh;
+}
+
+.firstSection{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.section{
+    display: grid;
+
+}
+.section>img{
+    margin: auto;
+    width: 95%;
+    max-width: 1250px;
+}
+.header{
+    margin-left: 2.5%;
+}
+.gradient{
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+    height: 2px; /* Adjust as needed */
+    background: linear-gradient(to right, #f0f0f0, #35434c, #f0f0f0);
+}
+.midSectionHeaderText{
+    text-align: center;
+   margin-bottom: -30px;
+}
+.svg{
+    height: 100px;
+}
+.rest,.auto,.proj{
+    margin: auto;
+    font-family: 'Poiret one','Cursive';
+    background-color: #fee4c5;
+    color: rgb(0, 0, 0);
+    font-size: 0.7rem;
+    width: 90%;
+    height: 150px;
+    border-radius: 25px;
+    display: grid;
+   grid-template-columns: 35% 65%;
+   align-items: center;
+    margin-top: 30px;
+}
+.rest>img,.auto>img,.proj>img{
+    margin-left: 20px;
+}
+.rest>h2{
+    font-weight: 200;
+}
+
+
+
+
+
+@media screen and (min-width:1280px) {
+    .restaurant,.automotive,.services{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .firstSection{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+      
+}
