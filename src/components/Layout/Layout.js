@@ -2,6 +2,7 @@ import Navbar from "../Navbar/Navbar";
 import Home from "../Pages/Home/Home";
 import Services from "../Pages/Services/Services";
 import Products from "../Pages/Products/Products";
+import Repair from "../Pages/Repair/Repair";
 import { Fragment } from "react";
 import Footer from "../Footer/Footer";
 import classes from './Layout.module.css'
@@ -21,6 +22,9 @@ element: <Services />,
 },
 { path: "/products",
 element: <Products />,
+},
+{ path: "/repair",
+element: <Repair />,
 },
 ]);
 const Layout = () => {

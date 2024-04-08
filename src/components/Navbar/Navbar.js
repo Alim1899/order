@@ -43,13 +43,13 @@ const Navbar = () => {
                 <a href="/products">Ürünlerimiz</a>
               </li>
               <li>
-                <a href="/preferencec">Referanslar</a>
+                <a href="/preferences">Referanslar</a>
               </li>
               <li>
                 <a href="/communication">İletişim</a>
               </li>
               <li>
-                <a href="/preferencec">Bilgisayar Tamir - Bakım</a>
+                <a href="/repair">Bilgisayar Tamir - Bakım</a>
               </li>
             </ul>
           </div>
@@ -76,13 +76,13 @@ const Navbar = () => {
                     <a href="/products">Ürünlerimiz</a>
                   </li>
                   <li>
-                    <a href="/preferencec">Referanslar</a>
+                    <a href="/preferences">Referanslar</a>
                   </li>
                   <li>
                     <a href="/communication">İletişim</a>
                   </li>
                   <li>
-                    <a href="/preferencec">Bilgisayar Tamir - Bakım</a>
+                    <a href="/repair">Bilgisayar Tamir - Bakım</a>
                   </li>
                 </ul>
               </div>
