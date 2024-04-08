@@ -2,6 +2,7 @@ import Navbar from "../Navbar/Navbar";
 import Home from "../Pages/Home/Home";
 import Services from "../Pages/Services/Services";
 import Products from "../Pages/Products/Products";
+import References from "../Pages/References/References";
 import Repair from "../Pages/Repair/Repair";
 import { Fragment } from "react";
 import Footer from "../Footer/Footer";
@@ -25,6 +26,9 @@ element: <Products />,
 },
 { path: "/repair",
 element: <Repair />,
+},
+{ path: "/preferences",
+element: <References />,
 },
 ]);
 const Layout = () => {

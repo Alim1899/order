@@ -1,0 +1,43 @@
+.main{
+    width: 95%;
+    max-width: calc(var(--width) - 2.5%);
+    margin: auto;
+
+}
+.gradient{
+    width: 95%;
+    margin: auto;
+    height: 2px; /* Adjust as needed */
+    background: linear-gradient(to right, #f0f0f0, #354048, #f0f0f0);
+}
+.header{
+    margin-top: 20px;
+    text-align: center;
+}
+.headerText{
+    margin: 40px;
+}
+.refs{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    margin-top: 20px;
+}
+.ref{
+    max-width:400px;
+    height: 80px;
+}
+@media  screen and (max-width:1280px) {
+    .main{
+     width: 90%;
+    }
+    .refs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ref{
+        width: 70vw;
+        margin-top: 20px;
+    }
+ }
