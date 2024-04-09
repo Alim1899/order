@@ -2,6 +2,7 @@ import Navbar from "../Navbar/Navbar";
 import Home from "../Pages/Home/Home";
 import Services from "../Pages/Services/Services";
 import Products from "../Pages/Products/Products";
+import Contact from "../Pages/Contact/Contact";
 import References from "../Pages/References/References";
 import Repair from "../Pages/Repair/Repair";
 import { Fragment } from "react";
@@ -29,6 +30,9 @@ element: <Repair />,
 },
 { path: "/preferences",
 element: <References />,
+},
+{ path: "/communication",
+element: <Contact />,
 },
 ]);
 const Layout = () => {

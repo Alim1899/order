@@ -37,7 +37,7 @@
         grid-template-columns: repeat(1,1fr);
     }
     .ref{
-        width: 70vw;
+        width: 100%;
         margin-top: 20px;
     }
  }

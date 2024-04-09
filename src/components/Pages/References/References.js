@@ -13,7 +13,7 @@ const References = () => {
        <div className={classes.header}>
           <div className={classes.gradient}></div>
           <h2 className={classes.headerText}>
-            Antalya Bilgisayar Tamiri, Bakımı ve Kurulum Hizmetleri
+          Referanslarımız
           </h2>
           <div className={classes.gradient}></div>
         </div>
