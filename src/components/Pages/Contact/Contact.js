@@ -1,9 +1,8 @@
 import React from "react";
 import classes from "./Contact.module.css";
 import insta from "../../../assets/svg/insta.svg";
-
 const Contact = () => {
-  const apiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY
+  const apiKey = 'AIzaSyBos-57IZmV-HpSEnNeuQYL3fQLocEeroY';
    console.log(apiKey);
   return (
     <div className={classes.main}>
