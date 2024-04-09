@@ -3,6 +3,8 @@ import classes from "./Contact.module.css";
 import insta from "../../../assets/svg/insta.svg";
 
 const Contact = () => {
+  const apiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY
+   console.log(apiKey);
   return (
     <div className={classes.main}>
       <div className={classes.header}>
@@ -24,10 +26,10 @@ const Contact = () => {
       <iframe
         title="map"
         loading="lazy"
-        allowfullscreen
+        allowFullScreen
         className={classes.map}
-        referrerpolicy="no-referrer-when-downgrade"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBos-57IZmV-HpSEnNeuQYL3fQLocEeroY&q=Kareli+magistrate+court,Kareli+Georgia&language=tr"
+        referrerPolicy="no-referrer-when-downgrade"
+        src={`https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=Kareli+magistrate+court,Kareli+Georgia&language=tr`}
       ></iframe>
     </div>
   );
