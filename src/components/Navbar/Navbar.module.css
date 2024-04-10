@@ -34,6 +34,9 @@
   width: 100vw;
   max-width: var(--width);
 }
+.dropdown>li:hover{
+  background-color: bisque;
+}
 
 .mobile {
     background-color: var(--navbar);

@@ -19,7 +19,7 @@ const Contact = () => {
       </p>
       <p className={classes.paragraph}>Mehmet Kıvanç ERBUDAK - 05451700658</p>
       <p className={classes.paragraph}>Instagram Sayfamız:</p>
-      <a href="https://www.instagram.com/huseinaxmedovi/" rel="noreferrer" target="_blank">
+      <a href="https://www.instagram.com/mkn.computer/" rel="noreferrer" target="_blank">
         <img className={classes.insta} alt="instalogo" src={insta}></img>
       </a>
       <iframe

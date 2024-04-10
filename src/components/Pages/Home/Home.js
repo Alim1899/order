@@ -29,7 +29,8 @@ const Home = () => {
           <img alt="img1" src={img2}></img>
         </div>
         <div className={classes.section}>
-          <h2 className={classes.header}>İşletme Yönetim Sistemleri</h2>
+          <h2 className={classes.header}>E-Ticaret Sistemleri
+</h2>
           <img alt="img1" src={img3}></img>
         </div>
       </section>
