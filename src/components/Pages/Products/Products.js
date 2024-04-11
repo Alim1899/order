@@ -57,6 +57,65 @@ const Products = () => {
           </p>
         </div>
       </section>
+
+      <section className={classes.thirdSection}>
+        <div className={classes.header}>
+          <div className={classes.gradient}></div>
+          <h2 className={classes.headerText}>Muhasebe Programi</h2>
+          <div className={classes.gradient}></div>
+        </div>
+        <div className={classes.text}>
+          <p className={classes.paragraph}>
+            Bu sistemı, online olmanın avantajını işlevsellik ve modüler yapıyla
+            birleştirerek müşterilere sunuyoruz. Bu sayede müşteriler, tüm iş
+            süreçlerini yönetebilirken online ve bulut tabanlı olmanın
+            özgürlüğünü yaşama fırsatı buluyorlar. Ayrıca bulut ve online
+            altyapısıyla müşterilerini sunucu, güvenlik duvarı, donanım, SQL
+            lisansı, sunucu bakımı gibi sorunlardan, siber saldırılardan ve
+            maliyetlerden kurtarıyor.
+          </p>
+          <p className={classes.paragraph}>
+            Sağladığımız ciddi güvenlik alt yapımızla müşterilerimize yerelde
+            sağlanamayacak güvenlik avantajını sunuyoruz.
+          </p>
+          <p className={classes.paragraph}>
+            Kullanıcılarımıza muhasebe işlemlerini daha etkin ve hatasız bir
+            şekilde yönetme imkanı sunarak işletmelerin günlük muhasebe
+            faaliyetlerini kolaylaştırmayı amaçlıyoruz. Bu programlar,
+            işletmelerin finansal süreçlerini takip etmelerine ve işletme
+            performanslarını analiz etmelerine yardımcı olabilir.
+          </p>
+          <p className={classes.paragraph}>
+            Daha fazla bilgi için bizimle iletişime geçin ve sizin için en uygun
+            çözümü bulalım!
+          </p>
+        </div>
+      </section>
+
+      <section className={classes.fourthSection}>
+        <div className={classes.header}>
+          <div className={classes.gradient}></div>
+          <h2 className={classes.headerText}>NAKLİYE Programı</h2>
+          <div className={classes.gradient}></div>
+        </div>
+        <div className={classes.text}>
+          <p className={classes.paragraph}>
+            Firmanızın tüm nakliye operasyonunu muhasebe ile entegre bir şekilde
+            yönetmenizi sağlar. Bu program sayesinde tüm taşeron nakliyecilerin,
+            kiralık plakaların, anlaşmalı petrol istasyonlarınızın, nakliye
+            hizmeti verdiğiniz müşterilerinizin muhasebesini takip
+            edebilirsiniz. Araçlarınızın masraf, yakıt, ceza vb. takibini
+            yapabilirsiniz.
+          </p>
+          <p className={classes.paragraph}>
+          Şubeleriniz arasında online bağlantı kurabilirsiniz. Birden çok şubeniz varsa, şubeler arasında otomatik veri transferi yaparak tüm nakliye operasyonlarınız arasında entegrasyon sağlayabilirsiniz.
+          </p>
+          <p className={classes.paragraph}>
+            Daha fazla bilgi için bizimle iletişime geçin ve sizin için en uygun
+            çözümü bulalım!
+          </p>
+        </div>
+      </section>
     </div>
   );
 };

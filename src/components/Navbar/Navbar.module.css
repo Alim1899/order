@@ -38,10 +38,7 @@
 .dropdown>li:hover{
   background-color: bisque;
 }
-.dropdown>li:hover .dropdown>li>a{
-  background-color: black;
-  color: black;
-}
+
 
 .mobile {
     background-color: var(--navbar);
