@@ -17,6 +17,7 @@
     margin: auto;
     width: 95%;
     max-width: 1250px;
+    border-radius: 15px;
 }
 .header{
     margin-left: 2.5%;
@@ -69,4 +70,8 @@
     }
 
       
+}
+
+.system{
+    min-height: 300px;
 }

@@ -3,6 +3,9 @@ import classes from "./Home.module.css";
 import img1 from "../../../assets/img1.jpg";
 import img2 from "../../../assets/img2.jpg";
 import img3 from "../../../assets/img3.jpg";
+import img4 from '../../../assets/png1.png';
+import img5 from '../../../assets/png2.jpeg'
+import img6 from "../../../assets/img6.jpg";
 import rest1 from "../../../assets/svg/rest1.svg";
 import rest2 from "../../../assets/svg/rest2.svg";
 import rest3 from "../../../assets/svg/rest3.svg";
@@ -22,16 +25,31 @@ const Home = () => {
       <section className={classes.firstSection}>
         <div className={classes.section}>
           <h2 className={classes.header}>Web Tasarım ve Yazılım Geliştirme</h2>
-          <img alt="img1" src={img1}></img>
+          <img alt="img1" className={classes.system} src={img1}></img>
         </div>
         <div className={classes.section}>
           <h2 className={classes.header}>İşletme Yönetim Sistemleri</h2>
-          <img alt="img1" src={img2}></img>
+          <img alt="img2" className={classes.system} src={img2}></img>
         </div>
         <div className={classes.section}>
           <h2 className={classes.header}>E-Ticaret Sistemleri
 </h2>
-          <img alt="img1" src={img3}></img>
+          <img alt="img3" className={classes.system} src={img3}></img>
+        </div>
+        <div className={classes.section}>
+          <h2 className={classes.header}>Muhasebe Sistemleri
+</h2>
+          <img alt="img4" className={classes.system} src={img4}></img>
+        </div>
+        <div className={classes.section}>
+          <h2 className={classes.header}>Nakliye Sistemleri
+</h2>
+          <img alt="img5" className={classes.system} src={img5}></img>
+        </div>
+        <div className={classes.section}>
+          <h2 className={classes.header}>3D Modelleme
+</h2>
+          <img alt="img6" className={classes.system} src={img6}></img>
         </div>
       </section>
 

@@ -19,6 +19,7 @@
   background-color: var(--navbar);
   display: grid;
   place-content: center;
+  cursor: pointer;
 }
 
 .dropdown > li > a,
@@ -36,6 +37,10 @@
 }
 .dropdown>li:hover{
   background-color: bisque;
+}
+.dropdown>li:hover .dropdown>li>a{
+  background-color: black;
+  color: black;
 }
 
 .mobile {
